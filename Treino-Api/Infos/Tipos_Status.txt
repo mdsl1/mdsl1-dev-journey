@@ -1,0 +1,12 @@
+Status de sucesso:
+200 (Ok) = Resposta padrão de sucesso. Resposta padrão de GET
+201 (Created) = Resposta quando algo é criado no servidor. Resposta padrão em POST.
+204 (No Content) = Resposta quando algo é executado com sucesso mas sem retorno de resposta. Pode ser usado em DELETE e PUT, mas com ele não dá pra retornar um json informando sucesso na alteração/exclusão.
+
+Status de erro:
+400 (Bad Request) = Resposta para um erro genérico, como algo faltando na requisição. Usado quando falta algo na requisição.
+401 (Unauthorized) = Resposta para quando o usuário precisar estar logado para acessar uma rota.
+403 (Forbidden) = Resposta quando o usuário estiver logado, porém não tiver permissão para acessar a rota.
+404 (Not Found) = Resposta quando o recurso que o usuário solicitar não existir ou não for encontrado.
+
+500 (Internal Server Error) = Erro do lado do servidor. Quando a requisição for feita corretamente mas a API der erro.

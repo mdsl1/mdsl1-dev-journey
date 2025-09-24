@@ -1,0 +1,19 @@
+main {
+    width: 100%;
+    text-align: center;
+    padding: 3rem 0;
+}
+main h1 {
+    font-size: 3rem;
+    margin: 3rem 0 5rem 0;
+}
+main section {
+    width: 80%;
+    margin: 4rem auto;
+    text-align: justify;
+    font-size: 1.8rem;
+}
+main section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}

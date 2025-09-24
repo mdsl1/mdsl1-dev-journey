@@ -1,0 +1,49 @@
+header {
+    position: sticky;
+    top: 0;
+    height: 8vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #323232;
+    color: #fff;
+    font-size: 1rem;
+}
+.container {
+    width: 20%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: baseline;
+    align-items: center;
+    margin-left: 2rem;
+}
+.logo {
+    width: 3rem;
+    height: 3rem;
+    background-color: #000;
+    border: #3da1ff 2px solid;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav {
+    width: 40%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+header a, header a:visited {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+header a:hover {
+    color: #3da1ff;
+}

@@ -1,0 +1,13 @@
+1: Entrar no diretório raiz onde o projeto deverá ficar
+2: Digitar "npm create vite@latest"
+3: Confirmar a criação e preencher as informações
+    Nome do projeto;
+    Framework (No caso react)
+    Variante (No caso Typescript, mas pode ser JS)
+
+4: Executar os seguintes comandos:
+    cd docie-cardapio
+    npm install
+    npm run dev
+
+5: Para rodar localmente o projeto, o comando é "npm run dev"
