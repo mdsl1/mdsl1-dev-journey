@@ -1,0 +1,22 @@
+.headerContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 7vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #2e008a;
+}
+header ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 100%;
+    list-style-type: none;
+}
+li a button {
+    background-color: #1534ff;
+}
