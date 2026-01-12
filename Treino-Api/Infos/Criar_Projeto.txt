@@ -1,4 +1,7 @@
 npm init
-npm install node
-npm install express
-npm install nodemon
+npm install node express
+
+# Caso seja sql: npm install mysql2
+# Caso seja mongoDb: npm install mongoose
+
+npm install nodemon -g
