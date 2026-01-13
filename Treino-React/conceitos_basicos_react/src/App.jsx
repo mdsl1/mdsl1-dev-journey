@@ -3,8 +3,10 @@ import { CapsLock_children } from './components/children.jsx';
 import { Contador } from './components/state.jsx';
 import { Header } from './components/header.jsx';
 
+// Exemplo de uso de componentes por meio da página/ componente "App"
 function App() {
 
+  // Aqui não tem nenhuma tratativa especial, apenas a utilização dos componentes criados anteriormente
   return (
     <>
       <Header />
@@ -26,4 +28,5 @@ function App() {
   );
 }
 
+// !Importante! Todas as páginas precisam ser exportadas dessa forma, e não com o export antes da function
 export default App

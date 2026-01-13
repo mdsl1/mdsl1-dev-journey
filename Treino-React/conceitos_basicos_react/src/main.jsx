@@ -1,13 +1,17 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
+
+// Import de páginas e componentes
 import App from './App.jsx';
 import PaginaParams  from './pages/paginaComParams.jsx';
-
-// Rotas
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import ConsumoAPI from './pages/paginaConsumoAPI.jsx';
 import { Header } from './components/header.jsx';
-import { ConsumoAPI } from './pages/paginaConsumoAPI.jsx';
+
+// Hooks usados para manipulação de Rotas
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
+// Aqui é criado um "container" com todas as rotas e o que elas devem renderizar
 const router = createBrowserRouter([
   {
     path: "/",
