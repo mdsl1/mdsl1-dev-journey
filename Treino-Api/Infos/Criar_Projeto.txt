@@ -1,4 +1,4 @@
-npm init
+npm init -y
 npm install node express
 
 # Caso seja sql: npm install mysql2
